@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PricingDogs,Edge Chromium 124,,,19-05-2024 10:00:53,19-05-2024 10:02:11,1m - 18.776s,PASSED
+,,,,,,,
+Test Cases/VerifyPricingdogs,Edge Chromium 124,,,19-05-2024 10:00:53,19-05-2024 10:02:11,1m - 18.601s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 10:00:53,19-05-2024 10:00:58,4.663s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,19-05-2024 10:00:58,19-05-2024 10:00:59,1.460s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,19-05-2024 10:00:59,19-05-2024 10:01:01,1.886s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/img""))",Edge Chromium 124,,,19-05-2024 10:01:01,19-05-2024 10:01:02,0.735s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/a_K9-DL-01""))",Edge Chromium 124,,,19-05-2024 10:01:02,19-05-2024 10:01:03,0.726s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/a_EST-9""))",Edge Chromium 124,,,19-05-2024 10:01:03,19-05-2024 10:01:04,1.196s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50""))",Edge Chromium 124,,,19-05-2024 10:01:04,19-05-2024 10:01:04,0.445s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,19-05-2024 10:01:04,19-05-2024 10:01:05,0.769s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50""))",Edge Chromium 124,,,19-05-2024 10:01:05,19-05-2024 10:01:38,32.956s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50""))",Edge Chromium 124,,,19-05-2024 10:01:38,19-05-2024 10:02:10,31.598s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Edge Chromium 124,,,19-05-2024 10:02:10,19-05-2024 10:02:10,0.738s,PASSED
+"click(findTestObject(""Object Repository/pricingDogs/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 10:02:10,19-05-2024 10:02:11,0.838s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 10:02:11,19-05-2024 10:02:11,0.310s,PASSED

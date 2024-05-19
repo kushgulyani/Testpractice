@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Addtokartfish,,,,19-05-2024 07:57:21,19-05-2024 07:57:25,4.396s,FAILED
+,,,,,,,
+Test Cases/AddtokartFish,,,,19-05-2024 07:57:25,19-05-2024 07:57:25,0.726s,FAILED
+"openBrowser("""")",,,,19-05-2024 07:57:25,19-05-2024 07:57:25,0.702s,FAILED

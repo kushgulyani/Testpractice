@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddtoKartBirds,Edge Chromium 124,,,19-05-2024 09:32:43,19-05-2024 09:38:09,5m - 25.795s,FAILED
+,,,,,,,
+Test Cases/AddtokartBirds,Edge Chromium 124,,,19-05-2024 09:36:48,19-05-2024 09:38:09,1m - 20.928s,FAILED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 09:36:48,19-05-2024 09:36:52,3.871s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,19-05-2024 09:36:52,19-05-2024 09:36:53,1.188s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,19-05-2024 09:36:53,19-05-2024 09:36:56,2.456s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/img""))",Edge Chromium 124,,,19-05-2024 09:36:56,19-05-2024 09:36:57,0.735s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/a_AV-CB-01""))",Edge Chromium 124,,,19-05-2024 09:36:57,19-05-2024 09:36:57,0.777s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/a_EST-18""))",Edge Chromium 124,,,19-05-2024 09:36:57,19-05-2024 09:36:58,0.882s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,19-05-2024 09:36:58,19-05-2024 09:36:59,0.754s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities""))",Edge Chromium 124,,,19-05-2024 09:36:59,19-05-2024 09:37:00,0.685s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities""))",Edge Chromium 124,,,19-05-2024 09:37:00,19-05-2024 09:37:00,0.759s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/div_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 09:37:00,19-05-2024 09:37:01,0.716s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 09:37:01,19-05-2024 09:37:33,31.970s,PASSED
+"click(findTestObject(""Object Repository/AddTokartBirds/Page_JPetStore Demo/area""))",Edge Chromium 124,,,19-05-2024 09:37:33,19-05-2024 09:38:09,36.088s,FAILED

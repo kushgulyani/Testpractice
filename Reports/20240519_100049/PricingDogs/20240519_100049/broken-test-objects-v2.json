@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50",
+      "brokenLocator": "//div[@id\u003d\u0027Catalog\u0027]/table/tbody/tr[6]/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027$18.50\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240519_100049/PricingDogs/20240519_100049/Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50_neighbor.png"
+    }
+  ]
+}

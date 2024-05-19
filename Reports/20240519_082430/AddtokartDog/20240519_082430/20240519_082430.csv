@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddtokartDog,Edge Chromium 124,,,19-05-2024 08:24:34,19-05-2024 08:24:46,12.306s,PASSED
+,,,,,,,
+Test Cases/Addtokartdog,Edge Chromium 124,,,19-05-2024 08:24:34,19-05-2024 08:24:46,12.134s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 08:24:34,19-05-2024 08:24:39,4.506s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,19-05-2024 08:24:39,19-05-2024 08:24:40,0.985s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,19-05-2024 08:24:40,19-05-2024 08:24:42,2.085s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/img""))",Edge Chromium 124,,,19-05-2024 08:24:42,19-05-2024 08:24:43,0.820s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/a_K9-BD-01""))",Edge Chromium 124,,,19-05-2024 08:24:43,19-05-2024 08:24:43,0.742s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/a_EST-6""))",Edge Chromium 124,,,19-05-2024 08:24:43,19-05-2024 08:24:44,1.024s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,19-05-2024 08:24:44,19-05-2024 08:24:45,0.694s,PASSED
+"click(findTestObject(""Object Repository/AddtokartDog/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 124,,,19-05-2024 08:24:45,19-05-2024 08:24:46,0.769s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 08:24:46,19-05-2024 08:24:46,0.267s,PASSED

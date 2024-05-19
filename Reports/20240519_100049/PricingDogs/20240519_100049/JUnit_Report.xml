@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PricingDogs" time="78.776" tests="1" failures="0" errors="0">
+   <testsuite name="PricingDogs" tests="1" failures="0" errors="0" time="78.776" skipped="0" timestamp="19-05-2024T10:00:53" hostname="HA716GP - IN3540868W1.ey.net" id="Test Suites/PricingDogs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_100049\\PricingDogs\\20240519_100049"/>
+         <property name="logFiles" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_100049\\PricingDogs\\20240519_100049\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HA716GP - IN3540868W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="sessionId" value="86ac69337d4392c867470283dce55d0a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VerifyPricingdogs" time="78.601" classname="Test Cases/VerifyPricingdogs" status="PASSED">
+         <system-out><![CDATA[19-05-2024T10:00:53 - [TEST_CASE][PASSED] - Test Cases/VerifyPricingdogs: Test Cases/VerifyPricingdogs
+
+19-05-2024T10:00:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T10:00:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T10:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T10:00:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T10:00:58 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T10:00:59 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T10:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T10:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T10:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/img")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T10:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T10:01:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/a_K9-DL-01")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_K9-DL-01' is clicked on
+
+19-05-2024T10:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_K9-DL-01' is clicked on
+
+19-05-2024T10:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/a_EST-9")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_EST-9' is clicked on
+
+19-05-2024T10:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_EST-9' is clicked on
+
+19-05-2024T10:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T10:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T10:01:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:01:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='Catalog']/table/tbody/tr[6]/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T10:01:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50'. Try using Self-healing.
+
+19-05-2024T10:01:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='Catalog']/table/tbody/tr[6]/td'.
+
+19-05-2024T10:01:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Dalmation'])[1]/following::td[2]'.
+
+19-05-2024T10:01:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::td[1]'.
+
+19-05-2024T10:01:37 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//*/text()[normalize-space(.)='$18.50']/parent::*'.
+
+19-05-2024T10:01:38 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/HA716GP/git/Testpractice/Reports/Self-healing/Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50_neighbor.png
+
+19-05-2024T10:01:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='$18.50']/parent::*'.
+
+19-05-2024T10:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:02:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='Catalog']/table/tbody/tr[6]/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T10:02:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50'. Try using Self-healing.
+
+19-05-2024T10:02:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='$18.50']/parent::*'.
+
+19-05-2024T10:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/td_18.50' is clicked on
+
+19-05-2024T10:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+19-05-2024T10:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+19-05-2024T10:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pricingDogs/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T10:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/pricingDogs/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T10:02:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2024T10:02:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T10:00:53 - [TEST_SUITE][PASSED] - PricingDogs: Test Cases/VerifyPricingdogs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

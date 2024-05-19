@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddtoKartBirds" time="325.795" tests="1" failures="1" errors="0">
+   <testsuite name="AddtoKartBirds" tests="1" failures="1" errors="0" time="325.795" skipped="0" timestamp="19-05-2024T09:32:43" hostname="HA716GP - IN3540868W1.ey.net" id="Test Suites/AddtoKartBirds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228"/>
+         <property name="logFiles" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\1716091446959.png, C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\1716091527760.png, C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\1716091608635.png, C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\1716091689585.png"/>
+         <property name="hostName" value="HA716GP - IN3540868W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="sessionId" value="bc64b7e94a0af873c2e31442d1e2a1f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AddtokartBirds" time="80.928" classname="Test Cases/AddtokartBirds" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AddtokartBirds FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at AddtokartBirds.run(AddtokartBirds:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[19-05-2024T09:36:48 - [TEST_CASE][FAILED] - Test Cases/AddtokartBirds: Test Cases/AddtokartBirds FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+19-05-2024T09:36:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T09:36:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-05-2024T09:36:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T09:36:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T09:36:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T09:36:52 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T09:36:53 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T09:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T09:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T09:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/img")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T09:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T09:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/a_AV-CB-01")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_AV-CB-01' is clicked on
+
+19-05-2024T09:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_AV-CB-01' is clicked on
+
+19-05-2024T09:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/a_EST-18")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_EST-18' is clicked on
+
+19-05-2024T09:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_EST-18' is clicked on
+
+19-05-2024T09:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T09:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities' is clicked on
+
+19-05-2024T09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities' is clicked on
+
+19-05-2024T09:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities' is clicked on
+
+19-05-2024T09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/input_Sub Total 193.50_updateCartQuantities' is clicked on
+
+19-05-2024T09:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/div_Return to Main Menu")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/div_Return to Main Menu' is clicked on
+
+19-05-2024T09:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/div_Return to Main Menu' is clicked on
+
+19-05-2024T09:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T09:37:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='BackLink']/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T09:37:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu'. Try using Self-healing.
+
+19-05-2024T09:37:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::a[6]'.
+
+19-05-2024T09:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T09:37:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/AddTokartBirds/Page_JPetStore Demo/area")): Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716091261962.run(Script1716091261962.groovy:42)
+	... 18 more
+)
+
+19-05-2024T09:38:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='MainImageContent']/map/area'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T09:38:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'. Try using Self-healing.
+
+19-05-2024T09:38:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='MainImageContent']/map/area'.
+
+19-05-2024T09:38:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//area'.
+
+19-05-2024T09:38:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//area[@alt = 'Birds' and @href = 'Catalog.action?viewCategory=&categoryId=BIRDS']'.
+
+19-05-2024T09:38:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='MainImageContent']/map/area'.
+
+19-05-2024T09:38:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//area'.
+
+19-05-2024T09:38:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//area[@alt = 'Birds' and @href = 'Catalog.action?viewCategory=&categoryId=BIRDS']'.
+
+19-05-2024T09:38:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@alt = 'Birds' and @href = 'Catalog.action?viewCategory=&categoryId=BIRDS']'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T09:38:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: area[alt="Birds"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-05-2024T09:38:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716091261962.run(Script1716091261962.groovy:42)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_093228\\AddtoKartBirds\\20240519_093228\\1716091689585.png]]]]></system-out>
+         <system-err><![CDATA[19-05-2024T09:36:48 - [TEST_CASE][FAILED] - Test Cases/AddtokartBirds: Test Cases/AddtokartBirds FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T09:32:43 - [TEST_SUITE][FAILED] - AddtoKartBirds: Test Cases/AddtokartBirds FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[19-05-2024T09:32:43 - [TEST_SUITE][FAILED] - AddtoKartBirds: Test Cases/AddtokartBirds FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at AddtokartBirds.run(AddtokartBirds:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716091348185.run(TempTestSuite1716091348185.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AddTokartBirds/Page_JPetStore Demo/area' located by '//div[@id='MainImageContent']/map/area' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

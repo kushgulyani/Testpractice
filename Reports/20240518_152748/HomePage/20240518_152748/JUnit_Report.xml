@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="0.948" tests="1" failures="0" errors="0">
+   <testsuite name="HomePage" tests="1" failures="0" errors="0" time="0.948" skipped="0" timestamp="18-05-2024T15:28:12" hostname="HA716GP - IN3540868W1.ey.net" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240518_152748\\HomePage\\20240518_152748"/>
+         <property name="logFiles" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240518_152748\\HomePage\\20240518_152748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HA716GP - IN3540868W1.ey.net"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/VerifyHomePage" time="0.522" classname="Test Cases/VerifyHomePage" status="PASSED">
+         <system-out><![CDATA[18-05-2024T15:28:13 - [TEST_CASE][PASSED] - Test Cases/VerifyHomePage: Test Cases/VerifyHomePage
+
+18-05-2024T15:28:13 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-05-2024T15:28:12 - [TEST_SUITE][PASSED] - HomePage: Test Cases/VerifyHomePage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

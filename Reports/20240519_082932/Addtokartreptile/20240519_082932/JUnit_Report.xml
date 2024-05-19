@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Addtokartreptile" time="13.695" tests="1" failures="0" errors="0">
+   <testsuite name="Addtokartreptile" tests="1" failures="0" errors="0" time="13.695" skipped="0" timestamp="19-05-2024T08:29:47" hostname="HA716GP - IN3540868W1.ey.net" id="Test Suites/Addtokartreptile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_082932\\Addtokartreptile\\20240519_082932"/>
+         <property name="logFiles" value="C:\\Users\\HA716GP\\git\\Testpractice\\Reports\\20240519_082932\\Addtokartreptile\\20240519_082932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HA716GP - IN3540868W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="sessionId" value="121af125ae2eae49bfcb4bffd4b10239"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Addtokartreptile" time="13.435" classname="Test Cases/Addtokartreptile" status="PASSED">
+         <system-out><![CDATA[19-05-2024T08:29:47 - [TEST_CASE][PASSED] - Test Cases/Addtokartreptile: Test Cases/Addtokartreptile
+
+19-05-2024T08:29:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T08:29:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T08:29:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T08:29:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T08:29:52 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T08:29:53 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+19-05-2024T08:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T08:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+19-05-2024T08:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/img")): Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T08:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+19-05-2024T08:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_RP-SN-01")): Object: 'Object Repository/Page_JPetStore Demo/a_RP-SN-01' is clicked on
+
+19-05-2024T08:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_RP-SN-01' is clicked on
+
+19-05-2024T08:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_EST-11")): Object: 'Object Repository/Page_JPetStore Demo/a_EST-11' is clicked on
+
+19-05-2024T08:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_EST-11' is clicked on
+
+19-05-2024T08:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T08:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+19-05-2024T08:29:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+19-05-2024T08:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+19-05-2024T08:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T08:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+19-05-2024T08:30:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2024T08:30:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T08:29:47 - [TEST_SUITE][PASSED] - Addtokartreptile: Test Cases/Addtokartreptile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

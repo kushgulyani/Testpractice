@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,,,,18-05-2024 15:28:12,18-05-2024 15:28:13,0.948s,PASSED
+,,,,,,,
+Test Cases/VerifyHomePage,,,,18-05-2024 15:28:13,18-05-2024 15:28:13,0.522s,PASSED
+return null,,,,18-05-2024 15:28:13,18-05-2024 15:28:13,0.003s,PASSED
